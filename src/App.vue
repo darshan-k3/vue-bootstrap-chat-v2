@@ -105,7 +105,10 @@ export default{
           <div class="col-md ">
             <p id="conversation" v-for="c in currentConversation">{{c.convLine}}</p>
             <p>&#x1F600</p>
-            <p id="newMessage" v-for="m in userMessages">{{m.message}}</p>
+            <div class="myMessages">
+              <p id="newMessage" v-for="m in userMessages">{{"You - " + m.message}}</p>
+            </div>
+            
           </div>
           <div class="col-md ">
             
