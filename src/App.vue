@@ -72,7 +72,7 @@ export default{
           this.description.push({id: this.description.length + 1, message : this.users.slice(this.countUsers, this.countUsers + 1).toString() + "\n" + this.ages.slice(this.countUsers, this.countUsers + 1).toString() + " years old\n" + "Is currently a " + this.jobs.slice(this.countUsers, this.countUsers + 1).toString() + "\n" + this.hobbiesDescriptions.slice(this.countUsers, this.countUsers + 1).toString()})
           this.description.shift();
           this.currentConversation.push({id: this.currentConversation.length + 1, convLine : this.users.slice(this.countUsers, this.countUsers + 1) + " - " + this.conversation.slice(this.countConversation, this.countConversation + 1).toString()})
-          this.userMessages.push(this.userMessage);
+          
           this.checkCount();
       }, 5000)
       }
