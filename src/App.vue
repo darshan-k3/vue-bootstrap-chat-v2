@@ -74,7 +74,7 @@ export default{
           this.currentConversation.push({id: this.currentConversation.length + 1, convLine : this.users.slice(this.countUsers, this.countUsers + 1) + " - " + this.conversation.slice(this.countConversation, this.countConversation + 1).toString()})
           this.userMessages.push(this.userMessage);
           this.checkCount();
-      }, 500)
+      }, 5000)
       }
     }
     
