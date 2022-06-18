@@ -1,0 +1,43 @@
+
+ .row{
+    display:flex;
+    
+    min-width:  100%;
+    min-height: 100%;
+ }
+
+ .col{
+   display: flex;
+   
+ }
+
+ .conversationMain{
+   border: 1px solid black;
+  
+ }
+
+ .userArea{
+  
+  position: absolute;
+  top: 90vh;
+  left: 60vw;
+ }
+ .description{
+   border: 1px solid #000;
+ 
+   float:right;
+   text-align: top;
+ }
+
+
+ .container{
+   display: flex;
+   min-width: 100%;
+   min-height: 100%;
+ }
+
+
+ p{
+    font-size: 1vw;
+    font-weight: bold;
+ }
