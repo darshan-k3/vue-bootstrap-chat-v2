@@ -61,7 +61,7 @@ export default{
     clear(){
       this.countConversation = 0;
       this.countUsers = 0;
-      this.messages = [];
+      this.userMessages = [];
       this.currentConversation = [];
     },
     
